@@ -1,0 +1,12 @@
+apiVersion: v1
+description: A Helm chart for Wavefront by VMware Adapter for Istio
+engine: gotpl
+home: https://github.com/vmware/wavefront-adapter-for-istio/
+icon: https://raw.githubusercontent.com/vmware/wavefront-adapter-for-istio/master/docs/images/logo.png
+maintainers:
+- email: veniln@vmware.com
+  name: Venil Noronha
+name: wavefront
+sources:
+- https://github.com/vmware/wavefront-adapter-for-istio/
+version: 0.1.1

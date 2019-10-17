@@ -1,0 +1,15 @@
+adapter:
+  image: vmware/wavefront-adapter-for-istio
+  tag: 0.1.1
+
+credentials:
+  direct:
+    server: https://surf.wavefront.com
+    token: cb9a7b18-755b-408c-a3d0-633870a55a84
+
+metrics:
+  flushInterval: 5s
+  source: dubokluster-istio
+  prefix: istio
+  http: true
+  tcp: true
